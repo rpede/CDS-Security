@@ -2,7 +2,9 @@
 
 ## Step 1 - Install virtualization software
 
-NOTE password can be found on moodle.
+NOTE OneDrive password can be found on moodle.
+
+See [Troubleshooting](#troubleshooting) section if you have any problems.
 
 ### Windows
 
@@ -53,3 +55,25 @@ established.
 
 Verify that there is a checkmark in the "Connected" field at
 [https://tryhVackme.com/access](https://tryhackme.com/access).
+
+## Troubleshooting
+
+### Image is too big
+
+If your computer doesn't have enough disk space for the image then you can put
+it in on USB-stick. 
+Just make sure it is formatted with something other than FAT32.
+Because FAT32 have a max file size of 4.3GiB.
+
+### No internet
+
+Make sure you host OS is online.
+
+Your VM might be using the same MAC address as somebody else because the image
+is an exact clone.
+
+To fix this try to run:
+
+```sh
+sudo macchanger -r eth0
+```
