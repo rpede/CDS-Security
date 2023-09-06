@@ -15,6 +15,18 @@ download "Windows host" file and install.
 
 ### macOS
 
+It depends on your processor.
+
+If you have an **Intel** CPU (prior to 2020):
+
+1.  Download and install "​macOS / Intel hosts" of [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+2. Download [Kali VirtualBox image](https://erhvervsakademisydvest-my.sharepoint.com/:u:/g/personal/rpe_easv_dk/ETM5F5SmniZBnUdCBD2vSfMBjyuNRx5gd1EzBC-GwMbb7A?e=kNSMzu)
+3. Extract and open the file (with red icon) which will start Kali virtual machine in VirtualBox
+
+
+If you have a new Mac (after 2020) it likely has an **Apple Silicon** chip. You
+therefore need a different program to run a x86 OS in a VM:
+
 1. Download and install [UTM](https://mac.getutm.app/).
 2. Download [Kali UTM image](https://erhvervsakademisydvest-my.sharepoint.com/:u:/g/personal/rpe_easv_dk/EW3U8G7JHjNLrindNJR2Cc8Bb7iNPY_QS5FSznftxTZSOw)
 3. Extract and open the file which will start Kali virtual machine in UTM
