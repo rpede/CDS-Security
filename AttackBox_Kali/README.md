@@ -44,7 +44,7 @@ You will need to setup a VPN connection to TryHackMe so you can access machines
 in the exercises.
 
 - Open Firefox within Kali.
-- Go to [https://tryhVackme.com/access](https://tryhackme.com/access)
+- Go to [https://tryhackme.com/access](https://tryhackme.com/access)
     - Login or Join if you haven't already
 - Click "Download My Configuration File"
 
@@ -66,7 +66,7 @@ established.
 ![VPN connected](./vpn_connected.jpg)
 
 Verify that there is a checkmark in the "Connected" field at
-[https://tryhVackme.com/access](https://tryhackme.com/access).
+[https://tryhackme.com/access](https://tryhackme.com/access).
 
 ## Troubleshooting
 
