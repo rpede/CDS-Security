@@ -514,3 +514,23 @@ sudo systemctl status certbot.timer
 # Test that it is working with a dry-run
 sudo certbot renew --dry-run
 ```
+
+## Troubleshooting
+
+View NGINX log:
+
+```sh
+cat /var/log/nginx/error.log
+```
+
+View service log:
+
+```sh
+journalctl -u blog-api.service
+```
+
+View permissions:
+
+```sh
+sudo ls -l /path/to/folder
+```
