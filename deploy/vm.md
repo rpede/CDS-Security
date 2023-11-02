@@ -98,7 +98,7 @@ scp -r  bin/Debug/net8.0/* blog:~/helloworld
 **On server**
 
 ```sh
-./helloworld/helloworld
+dotnet ~/helloworld/helloworld.dll
 ```
 
 It should write "Hello, World!"
