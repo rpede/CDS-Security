@@ -135,6 +135,8 @@ app.UseForwardedHeaders();
 
 See documentation for [ForwardedHeaders](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.httpoverrides.forwardedheaders?view=aspnetcore-8.0) and [UseForwardedHeaders](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.forwardedheadersextensions.useforwardedheaders?view=aspnetcore-8.0).
 
+Make sure you have data in the SQLite database by running `generatetable.sql`.
+
 Make a release build of both the frontend and backend.
 Then copy to the VM.
 
