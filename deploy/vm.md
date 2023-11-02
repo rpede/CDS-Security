@@ -26,6 +26,7 @@ Note: commands should be executed in git-bash.
 
 ```sh
 # Replace Downloads with the folder you downloaded the key to
+mkdir ~/.ssh
 mv Downloads/Blog_key.pem ~/.ssh
 # Change permissions. Otherwise ssh will complain
 chmod 600 .ssh/Blog_key.pem
