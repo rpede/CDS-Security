@@ -29,7 +29,7 @@ Note: commands should be executed in git-bash.
 mkdir ~/.ssh
 mv Downloads/Blog_key.pem ~/.ssh
 # Change permissions. Otherwise ssh will complain
-chmod 600 .ssh/Blog_key.pem
+chmod 600 ~/.ssh/Blog_key.pem
 ```
 
 Add to `~/.ssh/config`
