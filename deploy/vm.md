@@ -26,9 +26,10 @@ Note: commands should be executed in git-bash.
 
 ```sh
 # Replace Downloads with the folder you downloaded the key to
+mkdir ~/.ssh
 mv Downloads/Blog_key.pem ~/.ssh
 # Change permissions. Otherwise ssh will complain
-chmod 600 .ssh/Blog_key.pem
+chmod 600 ~/.ssh/Blog_key.pem
 ```
 
 Add to `~/.ssh/config`
@@ -97,7 +98,7 @@ scp -r  bin/Debug/net8.0/* blog:~/helloworld
 **On server**
 
 ```sh
-./helloworld/helloworld
+dotnet ~/helloworld/helloworld.dll
 ```
 
 It should write "Hello, World!"
@@ -133,6 +134,8 @@ app.UseForwardedHeaders();
 ```
 
 See documentation for [ForwardedHeaders](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.httpoverrides.forwardedheaders?view=aspnetcore-8.0) and [UseForwardedHeaders](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.forwardedheadersextensions.useforwardedheaders?view=aspnetcore-8.0).
+
+Make sure you have data in the SQLite database by running `generatetable.sql`.
 
 Make a release build of both the frontend and backend.
 Then copy to the VM.
